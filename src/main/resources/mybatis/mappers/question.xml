@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+			"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.mulcam.mini.dao.QuestionDAO">
+	<insert id="insertQuestion" parameterType="Question">
+			<![CDATA[
+				insert into qna values(#{no},#{type},#{id},#{name},#{email},#{phone},
+				#{title},#{qtext},#{atext},#{answerConfirm},#{qmodal},#{amodal})
+			]]>
+	</insert>
+	<select id="allQuestion" resultType="Question">
+		<![CDATA[
+			select * from qna
+		]]>
+	</select>
+	<select id="selectQnaCount" resultType="Integer">
+		<![CDATA[
+			select count(*) from qna
+		]]>
+	</select>
+	<select id="allQuestionByUser" parameterType="String" resultType="Question">
+		<![CDATA[
+			select * from qna where id=#{id}
+		]]>
+	</select>
+	<update id="updateQuestion" parameterType="Question">
+		<![CDATA[
+			update qna set answerConfirm="yes", atext=#{atext} where no=#{no}
+		]]>
+	</update>
+</mapper>

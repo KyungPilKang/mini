@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--xml에 필요한 태그 정의(마이바티스 관련)-->
+
+<configuration>
+	<mappers>
+		<mapper resource="mybatis/mappers/member.xml"/>
+		<mapper resource="mybatis/mappers/application.xml"/>
+		<mapper resource="mybatis/mappers/question.xml"/>
+	</mappers>
+</configuration>

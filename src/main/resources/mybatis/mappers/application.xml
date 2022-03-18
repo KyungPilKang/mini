@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+			"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.mulcam.mini.dao.ApplicationDAO">
+	<insert id="insertApplication" parameterType="Application">
+		<![CDATA[
+			insert into application values(#{no},#{id},#{title},#{name},#{email},#{phone},
+			#{etc},#{type},#{camera_type},#{video_type},#{effect_type},#{doc},#{confirm},#{modal})
+		]]>
+	</insert>
+	<select id="allApplication" resultType="Application">
+		<![CDATA[
+			select * from application
+		]]>
+	</select>
+	<select id="selectApplyCount" resultType="Integer">
+		<![CDATA[
+			select count(*) from application
+		]]>
+	</select>
+	<update id="docUpdate" parameterType="String">
+		<![CDATA[
+			update application set doc='yes' where no=#{no}
+		]]>
+	</update>
+	<update id="confirmUpdate" parameterType="String">
+		<![CDATA[
+			update application set confirm='yes' where no=#{no}
+		]]>
+	</update>
+	<select id="selectApply" resultType="Application" parameterType="String">
+		<![CDATA[
+			select * from application where no=#{no}
+		]]>
+	</select>
+</mapper>
