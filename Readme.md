@@ -10,6 +10,12 @@
 <br>
 <br>
 
+# Demo
+[![LOLPAN.DOG Demo](images/image7.png)](https://www.youtube.com/watch?v=n9hc840KKFM) 
+
+<br>
+<br>
+
 # Function Architecture
 
 <details><summary> <b>메인, 회원, 마이페이지, 프리랜서 신청, 관리자</b> </summary>
