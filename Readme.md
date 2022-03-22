@@ -8,7 +8,6 @@
 - 궁극적으로 최종 소비자인 학생들에게 합리적인 온라인 강의 컨텐츠 제공에 기여
   - 온라인 교육시장의 완전경쟁시장 환경을 구축하여 최종 소비자로의 선순환 기대
 <br>
-<br>
 
 # Demo
 [![STUDIO LIME Demo](images/image7.PNG)](https://www.youtube.com/watch?v=n9hc840KKFM) 
