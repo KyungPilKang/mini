@@ -1,6 +1,6 @@
-# Introduction to Studio Lime
+# Introduction to STUDIO LIME
 
-## What is Studio Lime?
+## What is STUDIO LIME?
 - 온라인 교육업계 종사자(촬영, 편집자)의 유연한 고용환경 조성
   - 특정 기업에 의존적인 비대칭적 고용형태 해결 
 - 신입 강사들에 대한 높은 수준의 온라인 컨텐츠 제작 환경 제공의 기회
@@ -11,7 +11,7 @@
 <br>
 
 # Demo
-[![LOLPAN.DOG Demo](images/image7.png)](https://www.youtube.com/watch?v=n9hc840KKFM) 
+[![STUDIO LIME Demo](images/image7.png)](https://www.youtube.com/watch?v=n9hc840KKFM) 
 
 <br>
 <br>
