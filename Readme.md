@@ -11,7 +11,7 @@
 <br>
 
 # Demo
-[![STUDIO LIME Demo](images/image7.png)](https://www.youtube.com/watch?v=n9hc840KKFM) 
+[![STUDIO LIME Demo](images/image7.PNG)](https://www.youtube.com/watch?v=n9hc840KKFM) 
 
 <br>
 <br>
