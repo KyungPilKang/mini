@@ -66,5 +66,47 @@
 <br>
 <br>
 
+# Skill & Tools
+
+<details><summary> <b>Back-end</b> </summary>
+
+* JAVA SE-11
+* Spring Boot
+* Spring MVC
+* Tomcat
+
+</details>
+<br>
+
+<details><summary> <b>Front-end</b> </summary>
+
+* HTML5
+* CSS
+* JavaScript
+* jQuery
+* BootStrap5
+
+</details>
+<br>
+
+<details><summary> <b>DBMS</b> </summary>
+
+* MySQL
+
+</details>
+<br>
+
+<details><summary> <b>DevOps</b> </summary>
+
+* Git/GitHub
+
+</details>
+<br>
+
+<details><summary> <b>API & Library</b> </summary>
+
+* NAVER SMTP
+  
+</details>
 
 
