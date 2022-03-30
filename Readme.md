@@ -105,7 +105,7 @@
 
 <details><summary> <b>API & Library</b> </summary>
 
-* NAVER SMTP
+* Naver SMTP
   
 </details>
 
